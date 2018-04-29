@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "Acorn AIV SCSI Adapter")(type KiCad)(uri "$(KIPRJMOD)")(options "")(descr ""))
+  (lib (name Additional_footprints)(type KiCad)(uri "$(KIPRJMOD)/Additional_footprints.pretty")(options "")(descr ""))
+  (lib (name Logo)(type KiCad)(uri "$(KIPRJMOD)/Logo.pretty")(options "")(descr ""))
+)

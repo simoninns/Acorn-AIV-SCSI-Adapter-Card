@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 74LS07
+D Hex Buffer (inverting) with open-collector outputs
+K not inv
+$ENDCMP
+#
+#End Doc Library

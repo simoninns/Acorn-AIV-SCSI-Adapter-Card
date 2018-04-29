@@ -1,0 +1,433 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:actel
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:diode
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:graphic_symbols
+LIBS:hc11
+LIBS:infineon
+LIBS:intersil
+LIBS:ir
+LIBS:Lattice
+LIBS:leds
+LIBS:LEM
+LIBS:logic_programmable
+LIBS:logo
+LIBS:maxim
+LIBS:mechanical
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:modules
+LIBS:motor_drivers
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:Oscillators
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:rfcom
+LIBS:RFSolutions
+LIBS:sensors
+LIBS:silabs
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:transf
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:zetex
+LIBS:Zilog
+LIBS:AIV SCSI Library
+LIBS:Acorn AIV SCSI Adapter-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 6
+Title "Acorn AIV SCSI Adapter Replica"
+Date "2018-04-28"
+Rev "1.0"
+Comp "https://www.domesday86.com"
+Comment1 "(c)2018 Simon Inns"
+Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 7750 2600 550  1900
+U 5AE48CC4
+F0 "SCSI" 60
+F1 "SCSI.sch" 60
+F2 "~DB0" I L 7750 2700 60 
+F3 "~DB1" I L 7750 2800 60 
+F4 "~DB2" I L 7750 2900 60 
+F5 "~DB3" I L 7750 3000 60 
+F6 "~DB4" I L 7750 3100 60 
+F7 "~DB5" I L 7750 3200 60 
+F8 "~DB6" I L 7750 3300 60 
+F9 "~DB7" I L 7750 3400 60 
+F10 "~BSY" I L 7750 3600 60 
+F11 "~ACK" I L 7750 3700 60 
+F12 "~RST" I L 7750 3800 60 
+F13 "~MSG" I L 7750 3900 60 
+F14 "~SEL" I L 7750 4000 60 
+F15 "~C~/D" I L 7750 4100 60 
+F16 "~REQ" I L 7750 4200 60 
+F17 "~I~/O" I L 7750 4300 60 
+$EndSheet
+$Sheet
+S 9600 3400 1250 900 
+U 5AE49D9E
+F0 "Video Clock" 60
+F1 "Video Clock.sch" 60
+$EndSheet
+$Sheet
+S 3300 2600 750  1900
+U 5AE4A65F
+F0 "Internal 1MHz Bus" 60
+F1 "Internal 1MHz Bus.sch" 60
+F2 "~IRQ" I R 4050 4300 60 
+F3 "~RST" I R 4050 4000 60 
+F4 "BD0" I R 4050 2700 60 
+F5 "BD1" I R 4050 2800 60 
+F6 "BD2" I R 4050 2900 60 
+F7 "BD3" I R 4050 3000 60 
+F8 "BD4" I R 4050 3100 60 
+F9 "BD5" I R 4050 3200 60 
+F10 "BD6" I R 4050 3300 60 
+F11 "BD7" I R 4050 3400 60 
+F12 "~MODEM" I R 4050 4400 60 
+F13 "A0" I R 4050 3600 60 
+F14 "A1" I R 4050 3700 60 
+F15 "A2" I R 4050 3800 60 
+F16 "1MHZE" I R 4050 4100 60 
+F17 "R/~W" I R 4050 4200 60 
+$EndSheet
+$Sheet
+S 9600 2100 1250 800 
+U 5AE4C491
+F0 "Mounting and Logos" 60
+F1 "Mounting and Logos.sch" 60
+$EndSheet
+$Sheet
+S 5350 2600 1250 1900
+U 5AE4C835
+F0 "AIV Logic" 60
+F1 "AIV Logic.sch" 60
+F2 "BBC_A0" I L 5350 3600 60 
+F3 "BBC_A1" I L 5350 3700 60 
+F4 "BBC_R/~W" I L 5350 4200 60 
+F5 "BBC_1MHZE" I L 5350 4100 60 
+F6 "BBC_~MODEM" I L 5350 4400 60 
+F7 "BBC_A2" I L 5350 3800 60 
+F8 "BBC_~IRQ" I L 5350 4300 60 
+F9 "BBC_~RST" I L 5350 4000 60 
+F10 "BBC_D7" I L 5350 3400 60 
+F11 "BBC_D6" I L 5350 3300 60 
+F12 "BBC_D5" I L 5350 3200 60 
+F13 "BBC_D4" I L 5350 3100 60 
+F14 "BBC_D3" I L 5350 3000 60 
+F15 "BBC_D2" I L 5350 2900 60 
+F16 "BBC_D1" I L 5350 2800 60 
+F17 "BBC_D0" I L 5350 2700 60 
+F18 "SCSI_~DB0" I R 6600 2700 60 
+F19 "SCSI_~DB1" I R 6600 2800 60 
+F20 "SCSI_~DB2" I R 6600 2900 60 
+F21 "SCSI_~DB3" I R 6600 3000 60 
+F22 "SCSI_~DB4" I R 6600 3100 60 
+F23 "SCSI_~DB5" I R 6600 3200 60 
+F24 "SCSI_~DB6" I R 6600 3300 60 
+F25 "SCSI_~DB7" I R 6600 3400 60 
+F26 "SCSI_~I~/O" I R 6600 4300 60 
+F27 "SCSI_~BSY" I R 6600 3600 60 
+F28 "SCSI_~MSG" I R 6600 3900 60 
+F29 "SCSI_!REQ" I R 6600 4200 60 
+F30 "SCSI_~C~/D" I R 6600 4100 60 
+F31 "SCSI_~RST" I R 6600 3800 60 
+F32 "SCSI_~SEL" I R 6600 4000 60 
+F33 "SCSI_~ACK" I R 6600 3700 60 
+$EndSheet
+Connection ~ 900  6800
+Connection ~ 1150 6800
+Wire Wire Line
+	1150 6900 1150 6800
+Connection ~ 1400 6800
+Wire Wire Line
+	1400 6800 1400 6900
+Connection ~ 1650 6800
+Wire Wire Line
+	1650 6800 1650 6900
+Connection ~ 1900 6800
+Wire Wire Line
+	1900 6800 1900 6900
+Connection ~ 2150 6800
+Wire Wire Line
+	2150 6800 2150 6900
+Connection ~ 2650 6800
+Wire Wire Line
+	2650 6800 2650 6900
+Connection ~ 2650 7300
+Wire Wire Line
+	2650 7300 2650 7200
+Connection ~ 2150 7300
+Wire Wire Line
+	2150 7300 2150 7200
+Connection ~ 1900 7300
+Wire Wire Line
+	1900 7300 1900 7200
+Connection ~ 1650 7300
+Wire Wire Line
+	1650 7300 1650 7200
+Connection ~ 1400 7300
+Wire Wire Line
+	1400 7300 1400 7200
+Connection ~ 1150 7300
+Wire Wire Line
+	1150 7200 1150 7300
+Connection ~ 900  7300
+Wire Wire Line
+	900  7200 900  7400
+Wire Wire Line
+	900  7300 2900 7300
+Wire Wire Line
+	2900 7300 2900 7200
+Wire Wire Line
+	900  6700 900  6900
+Wire Wire Line
+	900  6800 2900 6800
+Wire Wire Line
+	2900 6800 2900 6900
+$Comp
+L GND #PWR01
+U 1 1 5AE4264E
+P 900 7400
+F 0 "#PWR01" H 900 7150 50  0001 C CNN
+F 1 "GND" H 900 7250 50  0000 C CNN
+F 2 "" H 900 7400 50  0001 C CNN
+F 3 "" H 900 7400 50  0001 C CNN
+	1    900  7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR02
+U 1 1 5AE425F8
+P 900 6700
+F 0 "#PWR02" H 900 6550 50  0001 C CNN
+F 1 "+5V" H 900 6840 50  0000 C CNN
+F 2 "" H 900 6700 50  0001 C CNN
+F 3 "" H 900 6700 50  0001 C CNN
+	1    900  6700
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C2
+U 1 1 5AE41E67
+P 2900 7050
+F 0 "C2" H 2925 7150 50  0000 L CNN
+F 1 "22uF" H 2925 6950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 2938 6900 50  0001 C CNN
+F 3 "" H 2900 7050 50  0001 C CNN
+	1    2900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L CP C1
+U 1 1 5AE41DCD
+P 2650 7050
+F 0 "C1" H 2675 7150 50  0000 L CNN
+F 1 "22uF" H 2675 6950 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_Tantal_D5.0mm_P5.00mm" H 2688 6900 50  0001 C CNN
+F 3 "" H 2650 7050 50  0001 C CNN
+	1    2650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C A6
+U 1 1 5AE41D11
+P 2150 7050
+F 0 "A6" H 2175 7150 50  0000 L CNN
+F 1 "33nF" H 2175 6950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 2188 6900 50  0001 C CNN
+F 3 "" H 2150 7050 50  0001 C CNN
+	1    2150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C A5
+U 1 1 5AE41CA6
+P 1900 7050
+F 0 "A5" H 1925 7150 50  0000 L CNN
+F 1 "33nF" H 1925 6950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1938 6900 50  0001 C CNN
+F 3 "" H 1900 7050 50  0001 C CNN
+	1    1900 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C A4
+U 1 1 5AE41C42
+P 1650 7050
+F 0 "A4" H 1675 7150 50  0000 L CNN
+F 1 "33nF" H 1675 6950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1688 6900 50  0001 C CNN
+F 3 "" H 1650 7050 50  0001 C CNN
+	1    1650 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C A3
+U 1 1 5AE41BE1
+P 1400 7050
+F 0 "A3" H 1425 7150 50  0000 L CNN
+F 1 "33nF" H 1425 6950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1438 6900 50  0001 C CNN
+F 3 "" H 1400 7050 50  0001 C CNN
+	1    1400 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C A2
+U 1 1 5AE41B1F
+P 1150 7050
+F 0 "A2" H 1175 7150 50  0000 L CNN
+F 1 "33nF" H 1175 6950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 1188 6900 50  0001 C CNN
+F 3 "" H 1150 7050 50  0001 C CNN
+	1    1150 7050
+	1    0    0    -1  
+$EndComp
+$Comp
+L C A1
+U 1 1 5AE41A31
+P 900 7050
+F 0 "A1" H 925 7150 50  0000 L CNN
+F 1 "33nF" H 925 6950 50  0000 L CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm" H 938 6900 50  0001 C CNN
+F 3 "" H 900 7050 50  0001 C CNN
+	1    900  7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 2700 5350 2700
+Wire Wire Line
+	5350 2800 4050 2800
+Wire Wire Line
+	4050 2900 5350 2900
+Wire Wire Line
+	5350 3000 4050 3000
+Wire Wire Line
+	4050 3100 5350 3100
+Wire Wire Line
+	5350 3200 4050 3200
+Wire Wire Line
+	4050 3300 5350 3300
+Wire Wire Line
+	5350 3400 4050 3400
+Wire Wire Line
+	4050 3600 5350 3600
+Wire Wire Line
+	5350 3700 4050 3700
+Wire Wire Line
+	4050 3800 5350 3800
+Wire Wire Line
+	4050 4000 5350 4000
+Wire Wire Line
+	4050 4100 5350 4100
+Wire Wire Line
+	4050 4200 5350 4200
+Wire Wire Line
+	4050 4300 5350 4300
+Wire Wire Line
+	5350 4400 4050 4400
+Wire Wire Line
+	6600 2700 7750 2700
+Wire Wire Line
+	6600 2800 7750 2800
+Wire Wire Line
+	6600 2900 7750 2900
+Wire Wire Line
+	6600 3000 7750 3000
+Wire Wire Line
+	6600 3100 7750 3100
+Wire Wire Line
+	6600 3200 7750 3200
+Wire Wire Line
+	6600 3300 7750 3300
+Wire Wire Line
+	6600 3400 7750 3400
+Wire Wire Line
+	6600 3600 7750 3600
+Wire Wire Line
+	6600 3700 7750 3700
+Wire Wire Line
+	6600 3800 7750 3800
+Wire Wire Line
+	6600 3900 7750 3900
+Wire Wire Line
+	6600 4000 7750 4000
+Wire Wire Line
+	6600 4100 7750 4100
+Wire Wire Line
+	6600 4200 7750 4200
+Wire Wire Line
+	6600 4300 7750 4300
+$EndSCHEMATC
