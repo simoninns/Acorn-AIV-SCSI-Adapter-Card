@@ -104,8 +104,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Acorn AIV SCSI Adapter Replica - AIV SCSI Logic"
-Date "2018-04-28"
-Rev "1.0"
+Date "2018-05-27"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2018 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"

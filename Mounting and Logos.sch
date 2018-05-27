@@ -104,8 +104,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "Acorn AIV SCSI Adapter Replica - Extras"
-Date "2018-04-28"
-Rev "1.0"
+Date "2018-05-27"
+Rev "1.1"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2018 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
@@ -118,7 +118,7 @@ U 1 1 5AE4C713
 P 1750 1150
 F 0 "MK3" H 1750 1350 50  0000 C CNN
 F 1 "Mounting_Hole" H 1750 1275 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 1750 1150 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1750 1150 50  0001 C CNN
 F 3 "" H 1750 1150 50  0001 C CNN
 	1    1750 1150
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 5AE4C71A
 P 1750 1500
 F 0 "MK4" H 1750 1700 50  0000 C CNN
 F 1 "Mounting_Hole" H 1750 1625 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 1750 1500 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1750 1500 50  0001 C CNN
 F 3 "" H 1750 1500 50  0001 C CNN
 	1    1750 1500
 	1    0    0    -1  
@@ -140,7 +140,7 @@ U 1 1 5AE4C721
 P 1750 1850
 F 0 "MK5" H 1750 2050 50  0000 C CNN
 F 1 "Mounting_Hole" H 1750 1975 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 1750 1850 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1750 1850 50  0001 C CNN
 F 3 "" H 1750 1850 50  0001 C CNN
 	1    1750 1850
 	1    0    0    -1  
@@ -151,7 +151,7 @@ U 1 1 5AE4C728
 P 1150 1150
 F 0 "MK1" H 1150 1350 50  0000 C CNN
 F 1 "Mounting_Hole" H 1150 1275 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 1150 1150 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1150 1150 50  0001 C CNN
 F 3 "" H 1150 1150 50  0001 C CNN
 	1    1150 1150
 	1    0    0    -1  
@@ -162,7 +162,7 @@ U 1 1 5AE4C72F
 P 1150 1500
 F 0 "MK2" H 1150 1700 50  0000 C CNN
 F 1 "Mounting_Hole" H 1150 1625 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_2.2mm_M2_ISO14580" H 1150 1500 50  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3" H 1150 1500 50  0001 C CNN
 F 3 "" H 1150 1500 50  0001 C CNN
 	1    1150 1500
 	1    0    0    -1  
