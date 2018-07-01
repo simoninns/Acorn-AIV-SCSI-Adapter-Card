@@ -104,8 +104,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "Acorn AIV SCSI Adapter Replica - Video Clock"
-Date "2018-05-27"
-Rev "1.1"
+Date "2018-07-01"
+Rev "1.2"
 Comp "https://www.domesday86.com"
 Comment1 "(c)2018 Simon Inns"
 Comment2 "License: Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)"
