@@ -1,6 +1,8 @@
 # Acorn-AIV-SCSI-Adapter-Card
 A reproduction of the original Acorn AIV SCSI Adapter Card in KiCAD (as used in the BBC Domesday System)
 
+For more information please see the [project wiki pages](https://github.com/simoninns/Acorn-AIV-SCSI-Adapter-Card/wiki)
+
 ## Synopsis
 
 This card is designed as a drop-in replacement for the original Acorn card in the BBC Master Microcomputer and allows connection of SCSI devices (such as the Philips VP415 Domesday LaserDisc player).
